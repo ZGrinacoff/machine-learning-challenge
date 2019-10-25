@@ -4,7 +4,7 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 To help process this data, I created machine learning models capable of classifying candidate exoplanets from the raw dataset. The steps taken to do so are outlined below:
 
-## Repository Navigation:
+### Directory:
 
 * machine-learning-challenge (Repo Home):
   * README.md
@@ -20,14 +20,16 @@ To help process this data, I created machine learning models capable of classify
    
 **PLEASE USE RANDOM FOREST MODEL**
 
-## Preprocess the Data:
+## Project Outline:
+
+### Preprocess the Data:
 
   * Preprocess the dataset prior to fitting the model.
   * Perform feature selection and remove unnecessary features.
   * Use MinMaxScaler to scale the numerical data.
   * Separate the data into training and testing data.
   
-## Tune Model Parameters:
+### Tune Model Parameters:
 
   * Use GridSearch to tune model parameters.
   * Tune and compare two different classifiers (Support Vector Machine & Random Forest Classifier).
@@ -38,7 +40,7 @@ To help process this data, I created machine learning models capable of classify
   
   *  Random forests are much simpler to train for a practitioner; it’s easier to find a good, robust model. The complexity of a random forest grows with the number of trees in the forest, and the number of training samples we have. In SVMs, we typically need to do a fair amount of parameter tuning, and in addition to that, the computational cost grows linearly with the number of classes as well.
 
-## Random Forest:
+### Random Forest:
 
   |               | BeforeCV      | AfterCV       |
   |:-------------:|:-------------:|:-------------:|
@@ -52,7 +54,7 @@ Random Forest Classification Report:
 Random Forest Feature Importance:
 ![alt text](https://github.com/ZGrinacoff/machine-learning-challenge/blob/master/Images/featureimportance.png "Random Forest Feature Importance")
   
-## Support Vector Machine:
+### Support Vector Machine:
 
   |               | BeforeCV      | AfterCV       |
   |:-------------:|:-------------:|:-------------:|
