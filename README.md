@@ -7,16 +7,16 @@ To help process this data, I created machine learning models capable of classify
 ## Repository Navigation:
 
 * machine-learning-challenge (Repo Home):
- * README.md
- * exoplanet_data.csv
- * **exoplanet_exploration_randomForest.ipynb**
- * exoplanet_exploration_svm.ipynb
- * Images (Folder):
-   * featureimportance.png
-   * randomforest_classificationreport.png
- * Models (Folder):
-   * **zGrinacoff_randomForest.sav**
-   * zGrinacoff_svm.sav
+  * README.md
+  * exoplanet_data.csv
+  * **exoplanet_exploration_randomForest.ipynb**
+  * exoplanet_exploration_svm.ipynb
+  * Images (Folder):
+    * featureimportance.png
+    * randomforest_classificationreport.png
+  * Models (Folder):
+    * **zGrinacoff_randomForest.sav**
+    * zGrinacoff_svm.sav
    
 **PLEASE USE RANDOM FOREST MODEL**
 
