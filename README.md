@@ -4,6 +4,22 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 To help process this data, I created machine learning models capable of classifying candidate exoplanets from the raw dataset. The steps taken to do so are outlined below:
 
+## Repository Navigation:
+
+* machine-learning-challenge (Repo Home):
+ * README.md
+ * exoplanet_data.csv
+ * **exoplanet_exploration_randomForest.ipynb**
+ * exoplanet_exploration_svm.ipynb
+ * Images (Folder):
+   * featureimportance.png
+   * randomforest_classificationreport.png
+ * Models (Folder):
+   * **zGrinacoff_randomForest.sav**
+   * zGrinacoff_svm.sav
+   
+**PLEASE USE RANDOM FOREST MODEL**
+
 ## Preprocess the Data:
 
   * Preprocess the dataset prior to fitting the model.
@@ -32,6 +48,7 @@ To help process this data, I created machine learning models capable of classify
 Random Forest Classification Report:
 ![alt text](https://github.com/ZGrinacoff/machine-learning-challenge/blob/master/Images/randomforest_classificationreport.png "Random Forest Classification")
 
+
 Random Forest Feature Importance:
 ![alt text](https://github.com/ZGrinacoff/machine-learning-challenge/blob/master/Images/featureimportance.png "Random Forest Feature Importance")
   
@@ -42,4 +59,4 @@ Random Forest Feature Importance:
   |Training Score | 0.846         | 0.887         |
   |Testing Score  | 0.842         | 0.879         |
   
-  * Although the Random Forest model was 
+  * Although the Random Forest model was quite successful, it would be important to train and test additional models for accuracy and reliability. However, for a first time Machine Learning project, I am quite happy with the results. I look forward to further exploration in Machine Learning and beyond our planet's solar system!
